@@ -1,0 +1,30 @@
+
+h1,
+h1 a {
+  margin-bottom: rem($global-h1-spacing);
+  font-size: rem($global-h1-font-size);
+  font-weight: var(--global-h1-font-weight);
+  line-height: var(--global-h1-line-height);
+  letter-spacing: var(--global-h1-letter-spacing);
+  text-decoration: none;
+  color: var(--global-h1-color);
+
+  @include hocus {
+    text-decoration: none;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+p,
+p a {
+  margin-bottom: rem($global-text-spacing));
+  font-size: rem($global-text-font-size);
+  font-weight: var(--global-text-font-weight);
+  line-height: var(--global-text-line-height);
+  letter-spacing: var(--global-text-letter-spacing);
+  text-decoration: none;
+  color: var(--global-text-color);
+}

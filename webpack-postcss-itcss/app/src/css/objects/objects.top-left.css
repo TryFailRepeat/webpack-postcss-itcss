@@ -1,0 +1,5 @@
+.o-top-left {
+  @include absolute('top-left');
+  width: 20px;
+  height: 20px;
+}

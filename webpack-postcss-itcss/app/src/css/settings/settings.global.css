@@ -1,0 +1,11 @@
+$global-font-family:            'Open Sans';
+
+$global-spacing-primary:        10px;
+$global-spacing-secondary:      15px;
+
+:root {
+  --global-font-family:            $global-font-family;
+
+  --global-spacing-primary:        $global-spacing-primary;
+  --global-spacing-secondary:      $global-spacing-secondary;
+}

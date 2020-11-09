@@ -1,0 +1,22 @@
+/*
+  colors are not needed in calculations
+  so we only define base colors as postcss vars
+*/
+$color-black:           #000;
+$color-white:           #fff;
+
+$color-pink:            #ff24d5;
+$color-cyan:            #24ffff;
+
+:root {
+  --color-black:              $color-black;
+  --color-white:              $color-white;
+
+  --color-pink:               $color-pink;
+  --color-cyan:               $color-cyan;
+
+  --global-background-color:  $color-white;
+
+  --global-h1-color:          $color-cyan;
+  --global-text-color:        $color-pink;
+}

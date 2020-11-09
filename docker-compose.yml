@@ -1,0 +1,16 @@
+version: '3.0'
+services:
+
+  webpack-postcss-itcss:
+    container_name: webpack-postcss-itcss
+    build:
+      context: .
+      dockerfile: ./webpack-postcss-itcss/Dockerfile
+    volumes:
+      - ./webpack-postcss-itcss/app/:/home/node/app
+    ports:
+      - ${PORT_DEV}:${PORT_DEV}
+    environment:
+      - NODE_ENV=development
+      - PORT=${PORT_DEV}
+    command: npm run serve

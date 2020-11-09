@@ -1,0 +1,5 @@
+.o-main-content {
+  margin: auto;
+  padding: 50px;
+  width: calc(100% - 200px);
+}

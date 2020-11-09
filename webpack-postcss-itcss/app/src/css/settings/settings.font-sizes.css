@@ -1,0 +1,50 @@
+/*
+  postcss vars for units that are used in serverside calculation
+*/
+$global-font-size:                  10;
+$global-line-height:                1.5;
+
+$global-body-font-size:             14;
+$global-body-font-size-mobile:      $global-body-font-size;
+$global-body-line-height:           calc(20 / $global-body-font-size);
+$global-body-font-weight:           300;
+$global-body-letter-spacing:        normal;
+
+$global-h1-font-size:               48;
+$global-h1-font-size-mobile:        22;
+$global-h1-line-height:             calc(62 / $global-h1-font-size);
+$global-h1-font-weight:             300;
+$global-h1-letter-spacing:          $global-body-letter-spacing;
+$global-h1-spacing:                 0;
+
+$global-text-font-size:             $global-body-font-size;
+$global-text-font-size-mobile:      $global-text-font-size;
+$global-text-line-height:           $global-body-line-height;
+$global-text-font-weight:           300;
+$global-text-letter-spacing:        $global-body-letter-spacing;
+$global-text-spacing:               1rem;
+
+:root {
+  --global-font-size:                  px($global-font-size);
+  --global-line-height:                $global-line-height;
+
+  --global-body-font-size:             px($global-body-font-size);
+  --global-body-font-size-mobile:      px($global-body-font-size);
+  --global-body-line-height:           $global-body-line-height;
+  --global-body-font-weight:           $global-body-font-weight;
+  --global-body-letter-spacing:        $global-body-letter-spacing;
+
+  --global-h1-font-size:               px($global-h1-font-size);
+  --global-h1-font-size-mobile:        px($global-h1-font-size-mobile);
+  --global-h1-line-height:             $global-h1-line-height;
+  --global-h1-font-weight:             $global-h1-font-weight;
+  --global-h1-letter-spacing:          $global-h1-letter-spacing;
+  --global-h1-spacing:                 px($global-h1-spacing);
+
+  --global-text-font-size:             px($global-text-font-size);
+  --global-text-font-size-mobile:      px($global-text-font-size-mobile);
+  --global-text-line-height:           $global-text-line-height;
+  --global-text-font-weight:           $global-text-font-weight;
+  --global-text-letter-spacing:        $global-text-letter-spacing;
+  --global-text-spacing:               $global-text-spacing;
+}
